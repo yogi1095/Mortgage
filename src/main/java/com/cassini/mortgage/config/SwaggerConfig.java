@@ -15,6 +15,6 @@ public class SwaggerConfig {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.matrimony.cassini")).paths(PathSelectors.any()).build();
+				.apis(RequestHandlerSelectors.basePackage("com.cassini.mortgage")).paths(PathSelectors.any()).build();
 	}
 }
